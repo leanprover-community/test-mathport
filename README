@@ -10,6 +10,6 @@ and compile everything.
 (You can also run `make clean`, `make download-release` and `make build`
 separately.)
 
-After running `make`, open this folder in VSCode, and open `TestMathbin.lean`.
+After running `make`, open this folder in VSCode, and open `Testdep.lean`.
 You should be in a Lean environment with access to the current automatic
 port of Mathlib3 to Lean4.
