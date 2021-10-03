@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get clean
 # We need curl to download elan
 RUN apt-get install -y curl
-# Lake additionally requires some header files for the compiler:
+# See https://leanprover.zulipchat.com/#narrow/stream/270676-lean4/topic/build.20requirements.20for.20Lean4
 RUN apt-get install -y build-essential
 
 # create a non-root user
