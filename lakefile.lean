@@ -1,9 +1,8 @@
-import Lake.Package
+import Lake
 
-open Lake System
+open Lake DSL System
 
-def package : Lake.PackageConfig := {
-  name := "testdep"
+package testdep {
   dependencies := #[
     { name := "liquidbin", src := Lake.Source.path (FilePath.mk "./Lib4/liquidbin") }
   ]
